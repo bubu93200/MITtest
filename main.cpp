@@ -1,6 +1,7 @@
 /////////////////////////////////////////////////////////////////////
 // Test de MIT - Permet d'utiliser la librairie MScore
 // Copyright(c) Bruno Donati
+// 
 /////////////////////////////////////////////////////////////////////
 
 #include <QtCore>
@@ -22,7 +23,7 @@
 
 int main(int argc, char *argv[])
 {
-    Ms::MSCVERSION;
+
  
 
     QVariant value = 3.14;
