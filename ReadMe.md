@@ -11,7 +11,7 @@ ligne 1449: //std::array<QVariant, int(Sid::STYLES)> _values;
 ligne 1450: //std::array<qreal, int(Sid::STYLES)> _precomputedValues;  
 Ligne 1461: //qreal pvalue(Sid idx) const { return _precomputedValues[int(idx)]; }   
 
-# options à mettre dans Visual Studio   
+# Options à mettre dans Visual Studio   
 Il est possible que certaines options soient redondantes ou inutiles.  
 Dans la page propriété associée au projet MITtest :
 
