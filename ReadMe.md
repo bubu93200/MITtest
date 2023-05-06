@@ -87,4 +87,18 @@ libmscore.lib
 %(AdditionalDependencies)  
 
 # Dans le programme Cpp, il faut rajouter :  
+```cpp
+#include <QtCore>
+#include <QGuiApplication>
+//#include <QQmlApplicationEngine>
+#include <QtGlobal>
+//#include <QApplication>
+#include <QtGlobal>
+#include <QComboBox>
+#include <QFile>
+//#include <QVariant>
+#include <Qset>
 
+#include <QDebug>
+#include "C:\\MUSESCORE\\MuseScore362GITHUB\\libmscore\\mscore.h"
+```
