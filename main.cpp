@@ -6,6 +6,10 @@
 
 #include <QtCore>
 #include <QGuiApplication>
+#include <QApplication>
+#include <QWindow>
+#include <QPainter>
+#include <QPaintEvent>
 //#include <QQmlApplicationEngine>
 #include <QtGlobal>
 //#include <QApplication>
@@ -16,24 +20,20 @@
 #include <Qset>
 
 #include <QDebug>
-#include "C:\\MUSESCORE\\MuseScore362GITHUB\\libmscore\\mscore.h"
 
+#include "C:\\MUSESCORE\\MuseScore362GITHUB\\libmscore\\mscore.h"
 
 
 
 int main(int argc, char *argv[])
 {
 
- 
 
     QVariant value = 3.14;
     qInfo() << "The value is:" << value;
 
     value = "Hello, world!";
     qInfo() << "The value is now:" << value;
-
-return 0;
-
 
 
 #if defined(Q_OS_WIN)
@@ -49,11 +49,13 @@ return 0;
 
     QGuiApplication app(argc, argv);
 
-    //QQmlApplicationEngine engine;
-    //engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
-    //if (engine.rootObjects().isEmpty())
-    //    return -1;
+    QWindow window;
+    window.setTitle("Fenetre de Test");
+    window.resize(640, 480);
+    window.show();
 
-    //return app.exec();
+
+    return app.exec();
+ 
     return 0;
 }
