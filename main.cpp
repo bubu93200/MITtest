@@ -4,6 +4,10 @@
 // 
 /////////////////////////////////////////////////////////////////////
 
+
+
+
+
 #include <QtCore>
 #include <QGuiApplication>
 #include <QApplication>
@@ -16,10 +20,12 @@
 #include <QtGlobal>
 #include <QComboBox>
 #include <QFile>
-//#include <QVariant>
+#include <QVariant>
 #include <Qset>
-
 #include <QDebug>
+
+#include <array>
+#include<set>
 
 #include "C:\\MUSESCORE\\MuseScore362GITHUB\\libmscore\\mscore.h"
 

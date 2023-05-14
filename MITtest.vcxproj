@@ -115,6 +115,11 @@
     <None Include="LICENSE" />
     <None Include="main.qml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\MUSESCORE\MuseScore362GITHUB\msvc.build_x64\libmscore\libmscore.vcxproj">
+      <Project>{ce0b3ab2-497a-30f5-b67b-f2cff00d2967}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
     <Import Project="$(QtMsBuild)\qt.targets" />
