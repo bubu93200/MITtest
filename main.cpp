@@ -47,6 +47,11 @@ int main(int argc, char *argv[])
     //printf("Version de MuseScore: {}", Ms::MSCVERSION);
     
     ///////////////////////////////////////////////////////////
+     // Afficher la version de la librairie Musescore
+    int version = Ms::MSCVERSION;
+    //Ms::Score score;
+    Ms::Score score{};
+
 
     QGuiApplication app(argc, argv);
 
