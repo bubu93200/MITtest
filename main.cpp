@@ -3,11 +3,6 @@
 // Copyright(c) Bruno Donati
 // 
 /////////////////////////////////////////////////////////////////////
-
-
-
-
-
 #include <QtCore>
 #include <QGuiApplication>
 #include <QApplication>
